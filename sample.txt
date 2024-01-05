@@ -1,0 +1,13 @@
+Completed Video: 87
+Node Js
+-------------
+It is Async, Single Thread, Non blocking I/o
+
+It run on the chrome V8 engine
+
+It will directly converted into machine understandable code.
+
+It is a opensource language that means anyone can contribute to devlopmenty.
+
+npm stand for node package manager
+
