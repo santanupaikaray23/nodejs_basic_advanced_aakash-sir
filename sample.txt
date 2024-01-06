@@ -1,4 +1,4 @@
-Completed Video: 90
+Completed Video: 91
 Node Js
 -------------
 It is Async, Single Thread, Non blocking I/o
@@ -10,4 +10,12 @@ It will directly converted into machine understandable code.
 It is a opensource language that means anyone can contribute to devlopmenty.
 
 npm stand for node package manager
+
+It is a package which help us to create a server
+
+req > what ever we will send to the server
+like form/params/queryparams 
+res > what server will respond
+express -  It is supporting library
+
 
