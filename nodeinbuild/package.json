@@ -1,0 +1,18 @@
+{
+  "name": "nodeinbuild",
+  "version": "1.0.0",
+  "description": "this is start app",
+  "main": "fs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node staticapi.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "santanu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
