@@ -1,4 +1,4 @@
-Completed Video: 92
+Completed Video: 94
 Node Js
 -------------
 It is Async, Single Thread, Non blocking I/o
@@ -16,6 +16,43 @@ It is a package which help us to create a server
 req > what ever we will send to the server
 like form/params/queryparams 
 res > what server will respond
+
 express -  It is supporting library
 
+What is the command to make node js app?
+Ans : npm init -y
 
+Readme.md : It will make our application look good.
+
+.gitignore : we will push the external packages.
+
+C > Create
+R > Read
+U > Update
+D > Delete
+
+/////
+npm i -g nodemon
+
+Dev > QA > Prod
+
+dotenv package : it will help us to read the environment variable
+
+params : The thing you send after "/" is called param.
+QueryParams :  The thing you send after question mark is called queryparam.
+
+SQL           No SQL
+
+NoSQL > Not a SQL
+
+SQL              No SQL
+-----------------------------
+(1)Database        (1)Database
+(2)Tables          (2)Collections
+(3)Row             (3)Documents
+(4)Select          (4)Find
+(5)Insert          (5)Insert
+(6)Update          (6)Update
+(7)Delete          (7)Remove
+                   (8)Unstructured
+                   (9)Schemaless
