@@ -1,4 +1,4 @@
-Completed Video: 94
+Completed Video: 84
 Node Js
 -------------
 It is Async, Single Thread, Non blocking I/o
@@ -26,10 +26,10 @@ Readme.md : It will make our application look good.
 
 .gitignore : we will push the external packages.
 
-C > Create
-R > Read
-U > Update
-D > Delete
+C > Create  (Post)
+R > Read    (Get)
+U > Update  (Put)
+D > Delete   (Delete)
 
 /////
 npm i -g nodemon
@@ -56,3 +56,53 @@ SQL              No SQL
 (7)Delete          (7)Remove
                    (8)Unstructured
                    (9)Schemaless
+
+Show dbs : It will show me all the databases which we have.
+use dbname : if we want to go inside any databases
+show Collections : It well show all the Collections/ Tables
+db.student.find() : It will show all the records
+pretty() :  It will convert our data to readable format
+
+> db.hotels.find({"city_name":"Pune"}).pretty()
+> db.hotels.find({"city":"1"}).pretty()
+
+Create Database
+///////////////////
+use juneNode
+
+>db.test.insert({name:"Santanu"})
+>db.test.find()
+>db.test.insert({name:"Santanu",class:"React"})
+
+_id> primary key
+
+> We can insert id mannualy as well
+>db.test.insert({_id:1,name:"Santanu",class:"Node"})
+
+> request package use for call api
+> ejs package use for display purpose
+
+JWT stands for Json Web Token
+
+It is package we have install it.
+
+npm i bcryptjs body-parser cors express jsonwebtoken mongoose
+
+
+
+client secret : 786b24b0d757f83e6028ed3ab91bb69db5428b84
+client id : b27e91b2ee1bdb0790fc
+
+https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps
+
+http://www.passportjs.org/docs/google/
+
+To make restapi's what are the packages we need to install
+--------------------------------------------------------------
+npm i body-parser, cors, ejs, express, mongodb
+
+For testing purpose what are the packages we have to install
+-------------------------------------------------------------------
+npm i chai, chai-http, mocha
+
+cors > cross origin resource sharing
